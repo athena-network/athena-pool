@@ -1,6 +1,6 @@
 {
     "coin": "Athena",
-    "symbol": "XAT",
+    "symbol": "ATHX",
     "coinUnits": 100,
     "coinDifficultyTarget": 3600,
 
@@ -82,8 +82,8 @@
         "interval": 120,
         "maxAddresses": 50,
         "mixin": 3,
-        "transferFee": 100,
-        "minPayment": 100000,
+        "transferFee": 10000,
+        "minPayment": 10000000,
         "maxTransactionAmount": 0,
         "denomination": 100
     },
