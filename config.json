@@ -1,8 +1,8 @@
 {
-    "coin": "turtlecoin",
-    "symbol": "TRTL",
+    "coin": "Athena",
+    "symbol": "XAT",
     "coinUnits": 100,
-    "coinDifficultyTarget": 30,
+    "coinDifficultyTarget": 3600,
 
     "logging": {
         "files": {
@@ -19,7 +19,7 @@
   "poolServer": {
     "enabled": true,
     "clusterForks": "auto",
-    "poolAddress": "TRTLv3mnq2wS6GepH6nb628jEjFseeojACYToJ1BXaZNNEvLkzW327zTVCh7ncGtS2MU2usGNq9ygVwiCTTft9QkN3t5P2Xqv3f",
+    "poolAddress": "athena1b1jdDkJxFyTBtYMAkjjXRBArmw6fiQErykvui9VPRca1DEjQR3e1smWg7QhGx6Hme44CpPez6eEH647VYFVBEZCT9Ddu5D",
     "blockRefreshInterval": 1000,
     "minerTimeout": 3600,
     "ports": [
@@ -49,7 +49,7 @@
       "minDiff": 100,
       "maxDiff": 500000,
       "targetTime": 10,
-      "retargetTime": 30,
+      "retargetTime": 3600,
       "variancePercent": 30,
       "maxJump": 100
     },
@@ -90,7 +90,7 @@
 
     "blockUnlocker": {
         "enabled": true,
-        "interval": 30,
+        "interval": 3600,
         "depth": 40,
         "poolFee": 2,
         "devDonation": 0.1,
@@ -104,14 +104,14 @@
         "updateInterval": 5,
         "host": "127.0.0.1",
         "port": 8117,
-        "blocks": 30,
-        "payments": 30,
+        "blocks": 3600,
+        "payments": 3600,
         "password": "your_password"
     },
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 11898
+        "port": 12000
     },
 
     "wallet": {
