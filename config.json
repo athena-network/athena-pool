@@ -21,7 +21,7 @@
     "clusterForks": "auto",
     "poolAddress": "athena1rDLBMyYsoiS9rVDBkyPu6xS1DPdjqNBeQ1Rf28RBT6SAeFDjYvAi9dmsYE9NnvdESi5F3J4enUehWsg1dFyDKU7GJhsc47,",
     "blockRefreshInterval": 1000,
-    "minerTimeout": 3600,
+    "minerTimeout": 900,
     "ports": [
       {
         "port": 3333,
@@ -49,7 +49,7 @@
       "minDiff": 100,
       "maxDiff": 500000,
       "targetTime": 10,
-      "retargetTime": 3600,
+      "retargetTime": 30,
       "variancePercent": 30,
       "maxJump": 100
     },
