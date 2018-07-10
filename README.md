@@ -92,7 +92,7 @@ Usage
 * walletd
 * [Node.js](http://nodejs.org/) v0.10+ ([follow these installation instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
-* libssl required for the node-multi-hashing module
+* libssl required for the node-turtlecoin-multi-hashing module
   * For Ubuntu: `sudo apt-get install libssl-dev`
 
 
