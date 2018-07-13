@@ -20,6 +20,7 @@ var themeCss = 'themes/default-theme.css'
 var networkStat = {
   'athx': [
     ["pool.athx.host", "http://pool.athx.host:1117"],
-    ["athena.pool.yt", "https://athena.pool.yt:3512"]
+    ["athena.pool.yt", "https://athena.pool.yt:3512"],
+    ["athx.heigh-ho.funkypenguin.co.nz", "https://api.athx.heigh-ho.funkypenguin.co.nz"],
   ]
 }
