@@ -91,7 +91,7 @@
     "blockUnlocker": {
         "enabled": true,
         "interval": 3600,
-        "depth": 40,
+        "depth": 4100,
         "poolFee": 2,
         "devDonation": 0.1,
         "coreDevDonation": 0.1,
@@ -106,7 +106,7 @@
         "port": 8117,
         "blocks": 3600,
         "payments": 3600,
-        "password": "your_password"
+        "password": ""
     },
 
     "daemon": {
@@ -117,7 +117,7 @@
     "wallet": {
         "host": "127.0.0.1",
         "port": 8070,
-        "password": "<replace with rpc password>"
+        "password": "rpc password"
     },
 
     "redis": {
@@ -127,7 +127,7 @@
 
     "monitoring": {
         "daemon": {
-            "checkInterval": 60,
+            "checkInterval": 3600,
             "rpcMethod": "getblockcount"
         },
         "wallet": {
