@@ -74,16 +74,15 @@
       "enabled": false,
       "weight": 120,
       "lastBlockCheckRate": 1
-    }
-  },
+    },
 
     "payments": {
         "enabled": true,
-        "interval": 120,
+        "interval": 600,
         "maxAddresses": 50,
         "mixin": 3,
         "transferFee": 10000,
-        "minPayment": 10000000,
+        "minPayment": 500000,
         "maxTransactionAmount": 0,
         "denomination": 100
     },
@@ -91,7 +90,7 @@
     "blockUnlocker": {
         "enabled": true,
         "interval": 3600,
-        "depth": 4100,
+        "depth": 10,
         "poolFee": 2,
         "devDonation": 0.1,
         "coreDevDonation": 0.1,
