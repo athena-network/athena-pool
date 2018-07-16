@@ -1,4 +1,4 @@
-turtle-pool
+Athena-pool
 ====================
 Formerly known as cryptonote-forknote-pool, forked from Forknote Project.
 
@@ -88,28 +88,23 @@ Usage
 ===
 
 #### Requirements
-* Turtlecoind daemon
-* walletd
-* [Node.js](http://nodejs.org/) v0.10+ ([follow these installation instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
+* Athena daemon
+* services daemon
+* [Node.js](http://nodejs.org/) v8+ ([install using NVM](https://github.com/creationix/nvm))
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
 * libssl required for the node-turtlecoin-multi-hashing module
   * For Ubuntu: `sudo apt-get install libssl-dev`
-
-
-##### Seriously
-Those are legitimate requirements. If you use old versions of Node.js or Redis that may come with your system package manager then you will have problems. Follow the linked instructions to get the last stable versions.
 
 
 [**Redis security warning**](http://redis.io/topics/security): be sure firewall access to redis - an easy way is to
 include `bind 127.0.0.1` in your `redis.conf` file. Also it's a good idea to learn about and understand software that
 you are using - a good place to start with redis is [data persistence](http://redis.io/topics/persistence).
 
-##### Easy install on Ubuntu 14 LTS
-Installing pool on different Linux distributives is different because it depends on system default components and versions. For now the easiest way to install pool is to use Ubuntu 14 LTS. Thus, all you had to do in order to prepare Ubunty 14 for pool installation is to run:
+##### Easy install on Ubuntu 16 LTS
+Installing pool on different Linux distributives is different because it depends on system default components and versions. For now the easiest way to install pool is to use Ubuntu 16 LTS. Thus, all you had to do in order to prepare Ubunty 14 for pool installation is to run:
 
 ```bash
 sudo apt-get install git build-essential redis-server libboost1.55-all-dev nodejs-dev nodejs-legacy npm cmake libssl-dev node-gyp
-sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 
 
@@ -118,7 +113,7 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/turtlecoin/turtle-pool pool
+git clone https://github.com/athena-network/athenapool pool
 cd pool
 npm update
 ```
@@ -526,6 +521,7 @@ Credits
 * [Wolf0](https://bitcointalk.org/index.php?action=profile;u=80740) - Helped try to deobfuscate some of the daemon code for getting a bug fixed
 * [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270) - helping with figuring out certain problems and lead the bounty for this project's creation
 * [fancoder](https://github.com/fancoder/) - See his repo for the changes
+* [TurtleCoin Team](https://github.com/turtlecoin/turtle-pool)
 
 License
 -------
