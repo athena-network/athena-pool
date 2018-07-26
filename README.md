@@ -113,7 +113,7 @@ sudo apt-get install git build-essential redis-server libboost1.55-all-dev nodej
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/athena-network/athenapool pool
+git clone https://github.com/athena-network/athena-pool pool
 cd pool
 npm update
 ```
